@@ -17,6 +17,7 @@ namespace directory
             CreateWebHostBuilder(args).Build().Run();
         }
 
+        // This comment fixes everything
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
